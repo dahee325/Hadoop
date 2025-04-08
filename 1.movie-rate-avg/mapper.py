@@ -12,3 +12,7 @@ for line in sys.stdin:
     rating = fields[2]
 
     print(f'{movie_id}\t{rating}')
+    # 296   5.0
+    # 306   3.5
+    # 307   5.0
+    # ...

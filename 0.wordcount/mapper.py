@@ -10,3 +10,9 @@ for line in sys.stdin: # stdin(standardinput) : 파일 전체
     
     for word in words:
         print(f'{word}\t1') # \t : 탭(간격두기)
+        # apple 1
+        # hello 1
+        # world 1
+        # hello 1
+        # hello 1
+        # ...

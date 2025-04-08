@@ -9,7 +9,7 @@ for line in sys.stdin:
     line = line.strip()
     movie_id, rating = line.split()
 
-    try: # 문자형이면 밑의 코드 실행
+    try: # 에러가 발생할 수도 있는 코드
         rating = float(rating)
     except: # 실행을 하다가 문제가 발생한다면
         continue # 실행중인 for문을 무시하고 다음 for문을 실행

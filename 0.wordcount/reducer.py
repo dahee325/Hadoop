@@ -25,5 +25,6 @@ for line in sys.stdin:
         last_word = word # 글자가 바뀜
         total_count = value # 글자가 바꼈으니까 total_count 값 초기화
 
+# 마지막 단어
 if last_word == word:
     print(f'{last_word}\t{total_count}')
